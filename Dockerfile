@@ -5,4 +5,4 @@ EXPOSE 9001
 
 ENTRYPOINT ["minio"]
 
-RUN "server /data --console-address $PORT"
+CMD "server /data --console-address $PORT"
