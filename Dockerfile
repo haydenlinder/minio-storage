@@ -5,6 +5,5 @@ EXPOSE 9001
 
 RUN echo "####### port: $PORT ######"
 
-ENTRYPOINT ["minio"]
 
-CMD ["server", "/data", "--console-address", $PORT]
+CMD ["minio", "server", "/data", "--console-address", $PORT]
