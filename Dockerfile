@@ -3,6 +3,6 @@ FROM minio/minio:latest
 EXPOSE 9000
 EXPOSE 9001
 
-ENTRYPOINT [""]
+ENTRYPOINT ["minio"]
 
-RUN "minio server /data --console-address $PORT"
+RUN "server /data --console-address $PORT"
