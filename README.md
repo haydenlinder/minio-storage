@@ -1,3 +1,5 @@
+Created with help from https://github.com/koori69/heroku-minio 
+
 # Running locally:
 
 Must have installed: 
